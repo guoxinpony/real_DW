@@ -31,7 +31,7 @@
 - Redis：用一张表储存维度表信息；存在flink连接redis频繁以及redis最终一致性问题
 - **Flink CDC:** 立刻捕获维度表状态的变化，将维度表广播到所有flink并行度
 
-![2_2 维度表同步](pic/2_2 维度表同步.png)
+![2_2 dim_table](pic/2_2 dim_table.png)
 
 
 
@@ -44,7 +44,7 @@
 
 
 
-![FlinkCDC](C:\Users\guoxi\Desktop\笔记\real_DW\pic\FlinkCDC.png)
+![FlinkCDC](pic/FlinkCDC.png)
 
 ##### 4. 数据同步架构从**Maxwell + Kafka** 切换为 **Flink CDC**
 
