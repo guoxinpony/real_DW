@@ -32,3 +32,6 @@
 4. **分配 Slot:** Flink RM 将可用的 Slot 分配给 JobMaster
 5. **提供 Slot:** TaskManager 向 JobMaster 正式提供 Slot 使用权
 6. **分发任务:** JobMaster 生成最终的 **Physical Graph (物理执行图)**，并将任务部署到 TaskManager 的 Slot 中开始运行
+
+
+
